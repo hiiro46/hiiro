@@ -1,0 +1,148 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+li{
+  list-style: none;
+}
+
+header{
+  font-family: serif;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  background-color: #f5f5f5;
+  opacity: 0.6;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.title-ba{
+  display: inline-block;
+  position: relative;
+  left: 250px;
+  top: 20px;
+  width: 70%;
+}
+
+.title-name{
+  display: inline-block;
+  cursor: pointer;
+  opacity: 0.7;
+}
+
+.title-name:hover{
+  color: #d3d3d3;
+}
+
+.menu{
+  cursor: pointer;
+  display: inline-block;
+}
+
+.menu-ba{
+  display: inline-block;
+  position: relative;
+  left: 80%;
+  padding: 0 30px;
+}
+
+.menu:hover{
+  color: #d3d3d3;
+}
+
+.b1{
+  position: relative;
+  right: 15px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.b3{
+  position: relative;
+  left: 15px;
+  color: #a9a9a9
+}
+
+/*ここまでがヘッダー*/
+
+.social-top{
+  position: relative;
+  top: 80px;
+  height: 390px;
+}
+
+.social-image{
+  height: 100%;
+  background-image:url(https://d1f5hsy4d47upe.cloudfront.net/0e/0e4f8134381be324baedf1afc0e6978b_t.jpeg);
+  background-size: cover;
+  filter: brightness(97%);
+}
+
+.social-font{
+  display: inline-block;
+  position: relative;
+  top: 40%;
+  left: 46.6%;
+  font-family: '游ゴシック';
+  opacity: 0.8;
+}
+
+.so1{
+  text-align: center;
+  font-size: 50px;
+  line-height: 70px;
+}
+
+/*ここまでがヘッダー*/
+
+.social-main{
+  position: relative;
+  top: 80px;
+  height: 832px;
+}
+
+.social-introduction{
+  text-align: center;
+  line-height: 50px;
+  font-family: serif;
+  margin: 0 25%;
+  height: 100%;
+}
+
+.so-introduction{
+  display: inline-block;
+  position: relative;
+  top: 60px;
+}
+
+/*ここまでがメイン*/
+
+.footer-boda{
+  height: 200px;
+  margin-top: 80px;
+}
+
+.footer-font-ikon{
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  left: 49%;
+  top: 50px;
+  font-family: serif;
+  font-size: 25px;
+  opacity: 0.6;
+  height: 75px;
+}
+
+#ikon-tui:hover,#ikon-insut:hover{
+  color: #a9a9a9;
+  transition: all 1s;
+}
