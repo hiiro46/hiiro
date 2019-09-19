@@ -81,16 +81,15 @@ a{
 
 .main-image{
   height: 100%;
-  background-image:url(https://model.foto.ne.jp/free/img/images_big/m020006.jpg);
+  background: url(https://www.shira-beru.com/wp-content/uploads/2018/02/free.jpg);
   background-size: cover;
-  filter: brightness(110%);
 }
 
 .main-font{
   display: inline-block;
   position: relative;
-  top: 40%;
-  left: 44%;
+  top: 45%;
+  left: 46%;
   font-family: '游ゴシック';
   opacity: 0.8;
 }
